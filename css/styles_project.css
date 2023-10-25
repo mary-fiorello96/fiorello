@@ -1,0 +1,131 @@
+.project-menu {
+    display: flex;
+    width: auto;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    padding: 0px;
+    position: fixed;
+    margin: auto;
+    right: 5%;
+    background-color: #ffffff;
+    border-radius: 50px;
+    border: 2px solid;
+    border-color: var(--light-blu);
+    z-index: 100;
+  }
+  
+.text-menu-project {
+    position: relative;
+    width: fit-content;
+    font-family: var(--menu-font);
+    font-weight: 700;
+    color: white;
+    font-size: var(--menu-font-size);
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    text-decoration: none;
+    padding: 8px 24px;
+    background-color: var(--blu);
+    border-radius: 50px;
+    border: solid 3px;
+  }
+
+  .project-text-menu-about {
+    position: relative;
+    width: fit-content;
+    font-family: var(--menu-font);
+    font-weight: 700;
+    color: var(--blu);
+    font-size: var(--menu-font-size);
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    text-decoration: none;
+    padding: 8px 24px;
+  }
+
+  .presentation-container-project {
+    width:50%;
+    height:fit-content;
+    align-items: start;
+    background-color: #ffffff;
+    border: 0px none;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 150%;
+    justify-content: center;
+    padding: 0px;
+    position: relative;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .checkbox-container {
+    align-items: center;
+    border: 3px solid;
+    border-color: var(--light-blu);
+    border-radius: 0px 88px 0px 88px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+    padding: 16px 36px;
+    position: relative;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .checkbox {
+    align-items: center;
+    display: inline-flex;
+    gap: 8px;
+    padding: 0px;
+    position: relative;
+  }
+
+
+  .checkbox-label {
+    font-family: var(--menu-font);
+    font-size: 100%;
+    color: var(--blu);
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: normal;
+    position: relative;
+    width: fit-content;
+    white-space: nowrap;
+  }
+
+  @media screen and (max-width: 1365px) {
+    .presentation-container-project {
+      width: 70%;
+    }
+  }
+
+  @media screen and (max-width: 1113px) {
+    .presentation-container-project {
+      width: 75%;
+    }
+  }
+
+  @media screen and (max-width: 744px) {
+    .presentation-container-project {
+      width: 85%;
+    }
+  }
+
+  @media screen and (max-width: 490px) {
+    .presentation-container-project {
+      width: 95%;
+    } 
+  }

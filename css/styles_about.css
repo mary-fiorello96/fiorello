@@ -1,0 +1,435 @@
+.about-menu {
+    display: flex;
+    width: auto;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    padding: 0px;
+    position: fixed;
+    margin: auto;
+    right: 5%;
+    background-color: #ffffff;
+    border-radius: 50px;
+    border: 2px solid;
+    border-color: var(--yellow);
+    z-index: 100;
+  }
+
+  .text-menu-about {
+    position: relative;
+    width: fit-content;
+    font-family: var(--menu-font);
+    font-weight: 700;
+    color: white;
+    font-size: var(--menu-font-size);
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    text-decoration: none;
+    padding: 8px 24px;
+    background-color: var(--red);
+    border-radius: 50px;
+    border: solid 3px;
+  }
+
+  .text-menu-red {
+    position: relative;
+    width: fit-content;
+    font-family: var(--menu-font);
+    font-weight: 700;
+    color: var(--red);
+    font-size: var(--menu-font-size);
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    text-decoration: none;
+    padding: 8px 24px;
+  }
+
+  .personal-foto {
+    border-radius: 100%;
+    height: 25%;
+    position: relative;
+    width: 25%;
+  }
+
+  .welcome-frame-about {
+    align-items: center;
+    background-color: #ffffff;
+    border: 0px none;
+    width: 100%;
+    display: inline-flex;
+    flex: 1 1 auto;
+    flex-direction: row;
+    gap: 4px;
+    justify-content: center;
+    padding: 0px;
+    position: relative;
+    margin: auto;
+    align-self: center;
+  }
+
+  .contact-container-about {
+    align-items: center;
+    border: 3px solid;
+    border-color: var(--light-blu);
+    border-radius: 0px 50px 0px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    height: fit-content;
+    width: 70%;
+    padding: 36px 40px;
+    position: relative;
+    top: 0px;
+    margin: auto;
+  }
+
+  .presentation-about {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    height: fit-content;
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  .paragrafo {
+    align-self: stretch;
+    width: 100%;
+    max-width: 100%;
+    min-width: 50%;
+    color: #000000;
+    font-family: var(--paragraph-font);
+    font-size: 150%;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: var(--paragraph-line);
+    position: relative;
+    text-align: left;
+  }
+
+  .secondary-title {
+    align-self: stretch;
+    width: 100%;
+    color: #000000;
+    font-family: var(--main-title);
+    font-size: 170%;
+    font-weight: 800;
+    letter-spacing: normal;
+    line-height: var(--paragraph-line);
+    position: relative;
+    text-align: left;
+  }
+
+  .main-container {
+    align-items: start;
+    display: inline-flex;
+    flex: 1;
+    margin: auto;
+    width: 100%;
+    height: fit-content;
+    gap: 10%;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 0px;
+    top: 0px;
+  }
+
+  .main-container-left {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    height: fit-content;
+    position: relative;
+    float: left;
+    width: 45%;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .main-container-right {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    height: fit-content;
+    position: relative;
+    float: right;
+    width: 45%;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .qualities_passions {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 24px;
+  }
+
+  .qualities {
+    align-items: center;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    position: relative;
+    margin-top: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-bottom: 0px;
+  }
+
+  .icons_container {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 24px;
+  }
+
+  .icons {
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    width: 20%;
+    margin: 8px;
+  }
+
+  .img-icons {
+    margin: auto;
+    width: 60%;
+  }
+
+  .secondary-title-center-text-red {
+    color: var(--red);
+    align-self: stretch;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    font-family: var(--main-title);
+    font-size: 200%;
+    font-weight: 800;
+    letter-spacing: normal;
+    line-height: var(--paragraph-line);
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .text-qualities {
+    align-self: stretch;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    color: #000000;
+    font-family: var(--paragraph-font);
+    font-size: 140%;
+    font-weight: 600;
+    letter-spacing: normal;
+    line-height: var(--paragraph-line);
+    position: relative;
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  .social-icon-container-about {
+    align-items: center;
+    display: inline-flex;
+    gap: 48px;
+    justify-content: center;
+    padding: 0px;
+    position: relative;
+    margin: 0px;
+  }
+
+  .social-icon-about {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    filter: invert(16%) sepia(97%) saturate(2894%) hue-rotate(323deg) brightness(85%) contrast(98%);
+  }
+
+  .social-icon {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    filter: invert(16%) sepia(97%) saturate(2894%) hue-rotate(323deg) brightness(85%) contrast(98%);
+  }
+
+  .filter-red {
+    filter: invert(16%) sepia(97%) saturate(2894%) hue-rotate(323deg) brightness(85%) contrast(98%);
+  }
+
+  .filter-red:hover {
+    filter: invert(81%) sepia(45%) saturate(1903%) hue-rotate(348deg) brightness(96%) contrast(96%);
+  }
+  .filter-red:active {
+    filter: invert(81%) sepia(45%) saturate(1903%) hue-rotate(348deg) brightness(96%) contrast(96%);
+  }
+
+
+  @media screen and (max-width: 1072px)  {
+    .secondary-title {
+      font-size: 160%;
+    }
+
+    .paragrafo {
+      font-size: 150%;
+    }
+  }
+
+  @media screen and (max-width: 699px) {
+    .secondary-title {
+      font-size: 140%;
+    }
+
+    .paragrafo {
+      font-size: 130%;
+    }
+  }
+
+  @media screen and (max-width: 506px) {
+    .secondary-title {
+      font-size: 130%;
+    }
+
+    .paragrafo {
+      font-size: 120%;
+    }
+    .presentation-about {
+      width: 100%;
+    }
+
+    .contact-container-about {
+      gap: 30px;
+    }
+  }
+
+  @media screen and (max-width: 468px) {
+    .secondary-title {
+      font-size: 120%;
+    }
+
+    .paragrafo {
+      font-size: 110%;
+    }
+  }
+
+  @media screen and (max-width: 1301px)  {
+    .main-container {
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+      gap: 48px;
+    }
+     
+     .presentation-about {
+      width: 60%;
+     }
+        
+    .main-container-left {
+      width: 100%;
+      align-items: center;
+      gap: 24px;
+    }
+
+    .main-container-right {
+      width: 100%;
+      align-items: center;
+      gap: 24px;
+      margin-bottom: 60px;
+    }
+  }
+
+  @media screen and (max-width: 1049px) {
+    .presentation-about {
+      width: 70%;
+     }
+  }
+
+  @media screen and (max-width: 899px) {
+    .presentation-about {
+      width: 80%;
+     }
+  }
+
+  @media screen and (max-width: 787px) {
+    .presentation-about {
+      width: 95%;
+     }
+
+     .qualities {
+      gap: 0px;
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    .icons {
+      margin: 48px;
+      width: 30%;
+    }
+
+    .img-icons {
+      width: 70%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .icons {
+      margin: 8px;
+      width: 60%;
+      gap: 0px;
+    }
+
+    .icons_container {
+      gap: 8px;
+    }
+
+    .img-icons {
+      width: 100%;
+    }
+
+    .social-icon-about {
+      width: 24px;
+      height: 24px;
+    }
+  }
+
+  @media screen and (max-width: 908px) {
+    .welcome-frame-about {
+      flex-direction: column;
+    }
+
+    .personal-foto {
+      width: 50%;
+      height: 50%;
+    }
+  }
