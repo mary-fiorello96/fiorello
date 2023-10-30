@@ -428,6 +428,10 @@
       flex-direction: column;
     }
 
+    .contact-container-about {
+      align-items: start;
+    }
+
     .personal-foto {
       width: 50%;
       height: 50%;
