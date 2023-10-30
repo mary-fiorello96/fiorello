@@ -106,6 +106,12 @@ header {
   border-radius: 50px;
  }
 
+ .home-text-menu-project:focus {
+  color: white;
+  background-color: var(--blu);
+  border-radius: 50px;
+ }
+
  .home-text-menu-project:active {
   color: var(--light-blu);
   background-color: var(--blu);
@@ -128,6 +134,12 @@ header {
   }
 
   .home-text-menu-about:hover {
+    color: white;
+    background-color: var(--red);
+    border-radius: 50px;
+   }
+
+   .home-text-menu-about:focus {
     color: white;
     background-color: var(--red);
     border-radius: 50px;
@@ -229,6 +241,8 @@ header {
     border-color: var(--yellow);
     width: 100%;
     text-align: center;
+    background-color: #ffffff;
+
   }
 
   .button-about-me:hover {
@@ -237,7 +251,13 @@ header {
   }
 
   .button-about-me:active {
+    background-color: var(--red);
     color:var(--yellow);
+  }
+
+  .button-about-me:focus {
+    background-color: var(--red);
+    color:#ffffff;
   }
 
 
@@ -291,10 +311,6 @@ header {
     margin-bottom: 24px;
     }
 
-    .card-container.is-hidden {
-      display: none;
-    }
-
     .card-container:hover {
       opacity: 50%;
       color:#ffffff;
@@ -303,6 +319,11 @@ header {
     .card-container:active {
       opacity: 50%;
       color:var(--light-blu);
+    }
+
+    .card-container:focus {
+      opacity: 50%;
+      color:#ffffff;
     }
 
   .img-card{
@@ -372,6 +393,7 @@ header {
     top: 36px;
     width: fit-content;
     text-align: center;
+    background-color: #ffffff;
   }
    .see-project:hover {
     background-color: var(--blu);
@@ -379,7 +401,13 @@ header {
    }
    
    .see-project:active {
-    color: var(--light-blu)
+    color: var(--light-blu);
+    background-color: var(--blu);
+   }
+
+   .see-project:focus {
+    background-color: var(--blu);
+    color: white;
    }
 
   .contact-container {
@@ -427,6 +455,13 @@ header {
     color: var(--light-blu)
   }
 
+  .e-mail:focus {
+    color: var(--light-blu)
+  }
+
+  .e-mail:active {
+    color: var(--light-blu)
+  }
 
   .copyright {
     position: relative;
@@ -481,8 +516,12 @@ header {
 
   .social-icon:hover {
     filter: invert(55%) sepia(92%) saturate(2368%) hue-rotate(136deg) brightness(100%) contrast(103%);
-
   }
+
+  .social-icon:focus {
+    filter: invert(55%) sepia(92%) saturate(2368%) hue-rotate(136deg) brightness(100%) contrast(103%);
+  }
+
   .social-icon:active {
     filter: invert(93%) sepia(58%) saturate(1992%) hue-rotate(25deg) brightness(102%) contrast(102%);
   }
@@ -507,6 +546,7 @@ header {
   margin-top: 8px;
   margin-left: 0px;
   margin-right: 0px;
+  background-color: #ffffff;
   }
 
   .call-to-action-footer:hover {
@@ -517,6 +557,11 @@ header {
   .call-to-action-footer:active {
     background-color: var(--blu);
     color: var(--light-blu);
+  }
+
+  .call-to-action-footer:focus {
+    background-color: var(--blu);
+    color: #ffffff;
   }
  
   .not-underline {
