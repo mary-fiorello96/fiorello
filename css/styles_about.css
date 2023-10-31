@@ -73,7 +73,7 @@
   }
 
   .contact-container-about {
-    align-items: center;
+    align-items: start;
     border: 3px solid;
     border-color: var(--light-blu);
     border-radius: 0px 50px 0px 50px;
@@ -426,10 +426,6 @@
   @media screen and (max-width: 908px) {
     .welcome-frame-about {
       flex-direction: column;
-    }
-
-    .contact-container-about {
-      align-items: start;
     }
 
     .personal-foto {

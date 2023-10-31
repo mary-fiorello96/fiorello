@@ -1,14 +1,14 @@
 :root {
-  --menu-font: Tahoma, Verdana, Geneva, sans-serif;
+  --menu-font: 'Lato', Tahoma, Verdana, Geneva, sans-serif;
   --menu-font-size: 16px;
-  --main-title: Tahoma, Verdana, Geneva, sans-serif;
+  --main-title: 'Lato', Tahoma, Verdana, Geneva, sans-serif;
   --main-title-size: 200%;
   --main-title-line: 140%;
-  --paragraph-font: Georgia, 'Times New Roman', Times, serif;
+  --paragraph-font: 'Roboto Serif', Georgia, 'Times New Roman', Times, serif;
   --paragraph-size: 160%;
   --paragraph-line: 140%;
   --title-img-size: 190%;
-  --card-font: Georgia, 'Times New Roman', Times, serif;
+  --card-font: 'Roboto Serif', Georgia, 'Times New Roman', Times, serif;
   --card-title-size: 160%;
   --card-tag-size: 130%;
   --card-tag-style: italic;
@@ -106,13 +106,13 @@ header {
   border-radius: 50px;
  }
 
- .home-text-menu-project:focus {
-  color: white;
+ .home-text-menu-project:active {
+  color: var(--light-blu);
   background-color: var(--blu);
   border-radius: 50px;
  }
 
- .home-text-menu-project:active {
+ .home-text-menu-project:focus {
   color: var(--light-blu);
   background-color: var(--blu);
   border-radius: 50px;
@@ -138,14 +138,14 @@ header {
     background-color: var(--red);
     border-radius: 50px;
    }
-
-   .home-text-menu-about:focus {
-    color: white;
+  
+   .home-text-menu-about:active {
+    color: var(--yellow);
     background-color: var(--red);
     border-radius: 50px;
    }
-  
-   .home-text-menu-about:active {
+
+   .home-text-menu-about:focus {
     color: var(--yellow);
     background-color: var(--red);
     border-radius: 50px;
@@ -257,9 +257,8 @@ header {
 
   .button-about-me:focus {
     background-color: var(--red);
-    color:#ffffff;
+    color:var(--yellow);
   }
-
 
   .main {
     align-items: center;
@@ -407,12 +406,11 @@ header {
 
    .see-project:focus {
     background-color: var(--blu);
-    color: white;
+    color: var(--light-blu);
    }
 
   .contact-container {
     align-items: start;
-    align-self: center;
     border: 3px solid;
     border-color: var(--light-blu);
     border-radius: 0px 50px 0px 50px;
@@ -452,15 +450,15 @@ header {
   }
 
   .e-mail:hover {
-    color: var(--light-blu)
-  }
-
-  .e-mail:focus {
-    color: var(--light-blu)
+    color: var(--light-blu);
   }
 
   .e-mail:active {
-    color: var(--light-blu)
+    color: rgb(160, 255, 20);
+  }
+
+  .e-mail:focus {
+    color: rgb(160, 255, 20);
   }
 
   .copyright {
@@ -518,11 +516,11 @@ header {
     filter: invert(55%) sepia(92%) saturate(2368%) hue-rotate(136deg) brightness(100%) contrast(103%);
   }
 
-  .social-icon:focus {
-    filter: invert(55%) sepia(92%) saturate(2368%) hue-rotate(136deg) brightness(100%) contrast(103%);
+  .social-icon:active {
+    filter: invert(93%) sepia(58%) saturate(1992%) hue-rotate(25deg) brightness(102%) contrast(102%);
   }
 
-  .social-icon:active {
+  .social-icon:focus {
     filter: invert(93%) sepia(58%) saturate(1992%) hue-rotate(25deg) brightness(102%) contrast(102%);
   }
 
@@ -561,7 +559,7 @@ header {
 
   .call-to-action-footer:focus {
     background-color: var(--blu);
-    color: #ffffff;
+    color: var(--light-blu);
   }
  
   .not-underline {
@@ -813,7 +811,7 @@ header {
     }
 
     .e-mail {
-      font-size: 135%;
+      font-size: 140%;
     }
 
     .welcome-frame {
@@ -826,7 +824,7 @@ header {
       font-size: 110%;
     }
     .e-mail {
-      font-size: 115%;
+      font-size: 120%;
     }
 
     .card-caption {
