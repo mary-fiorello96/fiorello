@@ -203,8 +203,6 @@ header {
   }
   
   .main-title {
-    max-width: 100%;
-    min-width: 50%;
     margin-left: 0;
     object-fit: cover;
     position: relative;
@@ -213,6 +211,7 @@ header {
     font-family: var(--main-title);
     font-size: var(--main-title-size);
     line-height: var(--main-title-line);
+    font-weight: 800;
   }
 
   .cappello {
@@ -242,7 +241,7 @@ header {
     width: 100%;
     text-align: center;
     background-color: #ffffff;
-
+    margin-top: 24px;
   }
 
   .button-about-me:hover {
