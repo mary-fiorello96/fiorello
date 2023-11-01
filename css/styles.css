@@ -9,7 +9,7 @@
   --paragraph-line: 140%;
   --title-img-size: 190%;
   --card-font: 'Roboto Serif', Georgia, 'Times New Roman', Times, serif;
-  --card-title-size: 160%;
+  --card-title-size: 190%;
   --card-tag-size: 130%;
   --card-tag-style: italic;
   --light-blu: rgb(0, 200, 180);
@@ -97,7 +97,7 @@ header {
     line-height: normal;
     white-space: nowrap;
     text-decoration: none;
-    padding: 8px 24px;
+    padding: 8px 18px 8px 24px;
   }
 
  .home-text-menu-project:hover {
@@ -130,7 +130,7 @@ header {
     line-height: normal;
     white-space: nowrap;
     text-decoration: none;
-    padding: 8px 24px;
+    padding: 8px 24px 8px 18px;
   }
 
   .home-text-menu-about:hover {
@@ -212,6 +212,7 @@ header {
     font-size: var(--main-title-size);
     line-height: var(--main-title-line);
     font-weight: 800;
+    width: 100%;
   }
 
   .cappello {
@@ -410,12 +411,13 @@ header {
 
   .contact-container {
     align-items: start;
+    align-self: center;
     border: 3px solid;
     border-color: var(--light-blu);
     border-radius: 0px 50px 0px 50px;
     display: flex;
     flex-direction: column;
-    gap: 48px;
+    gap: 24px;
     height: fit-content;
     width: 80%;
     padding: 36px 40px;
@@ -446,6 +448,7 @@ header {
     padding: 0;
     text-decoration: underline;
     margin: 0;
+    width: 100%;
   }
 
   .e-mail:hover {
@@ -705,12 +708,7 @@ header {
   @media screen and (max-width: 600px) {
 
      .contact-container {
-      width: 75%;
       margin-bottom: 0px;
-     }
-
-     .e-mail {
-      font-size: 130%;
      }
 
      .button-about-me {
@@ -753,35 +751,30 @@ header {
       font-size: 150%;
      }
 
-     
      .section-title {
       font-size: 150%;
      }
   }
-
-
 
   @media screen and (max-width: 690px) {
     .call-to-action-footer {
       font-size: 18px;
     }
   }
-  
-  @media screen and (max-width: 744px) and (min-width: 513px) { 
-   .card-caption {
-    font-size: 140%;
-   }
+
+  @media screen and (max-width: 1162px) {
+    .card-caption {
+      font-size: 180%;
+     }
   }
 
-  @media screen and (max-width: 1113px) {
-    .card-tag {
-      font-size: 125%;
-    }
-  }
-
-  @media screen and (max-width: 935px) {
+  @media screen and (max-width: 1109px) {
     .card-tag {
       font-size: 120%;
+   }
+
+   .card-caption {
+    font-size: 150%;
    }
   }
 
@@ -803,19 +796,22 @@ header {
    .section-title {
     font-size: 140%;
    }
-  }
-  @media screen and (max-width: 498px) { 
-    .text-contact {
-     font-size: 130%;
-    }
 
-    .e-mail {
-      font-size: 140%;
-    }
+   .text-contact {
+    font-size: 130%;
+   }
 
-    .welcome-frame {
-      width: 100%;
-    }
+   .e-mail {
+     font-size: 140%;
+   }
+
+   .welcome-frame {
+     width: 100%;
+   }
+
+   .contact-container {
+    padding: 24px 24px;
+   }
   }
 
   @media screen and (max-width: 416px) {
