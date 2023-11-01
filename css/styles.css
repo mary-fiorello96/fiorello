@@ -104,18 +104,22 @@ header {
   color: white;
   background-color: var(--blu);
   border-radius: 50px;
+  padding: 8px 24px;
  }
 
  .home-text-menu-project:active {
   color: var(--light-blu);
   background-color: var(--blu);
   border-radius: 50px;
+  padding: 8px 24px;
+
  }
 
  .home-text-menu-project:focus {
   color: var(--light-blu);
   background-color: var(--blu);
   border-radius: 50px;
+  padding: 8px 24px;
  }
   
   .home-text-menu-about {
@@ -137,18 +141,22 @@ header {
     color: white;
     background-color: var(--red);
     border-radius: 50px;
+    padding: 8px 24px;
    }
   
    .home-text-menu-about:active {
     color: var(--yellow);
     background-color: var(--red);
     border-radius: 50px;
+    padding: 8px 24px;
+
    }
 
    .home-text-menu-about:focus {
     color: var(--yellow);
     background-color: var(--red);
     border-radius: 50px;
+    padding: 8px 24px;
    }
 
 .monogramma {
