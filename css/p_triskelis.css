@@ -186,6 +186,10 @@
   margin-right: 48px;
 }
 
+.border {
+  border: solid 1px;
+}
+
 
 .paragrafo_container {
     align-items: start;
