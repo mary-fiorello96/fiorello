@@ -419,15 +419,19 @@
   .card-container_otherp {
     grid-template-columns: repeat(1, 1fr);
     align-items: center;
-    margin-bottom: 36px;
   }
-
+  .margin-bottom {
+    margin-bottom: 40px;
+  }
   .img-card_otherp {
     height: 100%;
   }
 
   .card_otherp {
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32px;
+    margin-bottom: 72px;
     height: 100%;
   }
   }
