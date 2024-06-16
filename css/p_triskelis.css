@@ -421,17 +421,17 @@
     align-items: center;
   }
   .margin-bottom {
-    margin-bottom: 40px;
+    margin-bottom: 24px;
   }
   .img-card_otherp {
-    height: 100%;
+    height: auto;
   }
 
   .card_otherp {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 32px;
-    margin-bottom: 72px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     height: 100%;
   }
   }
